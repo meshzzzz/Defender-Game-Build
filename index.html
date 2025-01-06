@@ -56,13 +56,13 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
+      var buildUrl = "./Build";
       var loaderUrl = buildUrl + "/build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/build.data",
-        frameworkUrl: buildUrl + "/build.framework.js",
-        codeUrl: buildUrl + "/build.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+        dataUrl: buildUrl + "/DefenderBuild.data",
+        frameworkUrl: buildUrl + "/DefenderBuild.framework.js",
+        codeUrl: buildUrl + "/DefenderBuild.wasm",
+        streamingAssetsUrl: "./StreamingAssets",  // Note the ./ here
         companyName: "DefaultCompany",
         productName: "DefenderGame",
         productVersion: "0.1",
